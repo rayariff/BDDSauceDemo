@@ -23,7 +23,8 @@ public class Hooks {
         //inisiasi library selenium
         driver = new ChromeDriver(co);
 
-        String appUrl = "https://www.saucedemo.com/";
+//        String appUrl = "https://www.saucedemo.com/";
+        String appUrl = "https://e-commerce-seven-coral.vercel.app/";
         driver.get(appUrl);//fungsi untuk ngebuka link html
         driver.manage().window().maximize();//fungsi untuk memaximize browser
     }
